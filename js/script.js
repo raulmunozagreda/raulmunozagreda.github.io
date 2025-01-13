@@ -3,10 +3,7 @@ const caja4 = document.getElementById("caja4")
 const apiKey ="ac0cb62f75f6495fbcf2eb9e838a446e";
 const apiUrl = `https://api.rawg.io/api/developers?page_size=6&key=${apiKey}`;
 fetch(`https://corsproxy.io/?url=${encodeURIComponent(apiUrl)}`,{
-    method: 'GET',
-    headers: {
-        'Origin': window.location.origin  // Necesario para el encabezado Origin
-    }
+    method: 'GET'
 })
     .then(response => response.json())
     .then(data => { 
