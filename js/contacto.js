@@ -13,7 +13,7 @@ if(navigator.geolocation){
 
 }
 else{
-    alert("No has permitido la geolocalizacion.")
+    alert("No has permitido la geolocalización.")
 }
 
 function success(position){

@@ -1,3 +1,5 @@
+//***Contacto***
+//Declaración de variables
 const nombreInput = document.getElementById("nombre")
 const telefonoInput = document.getElementById("telefono")
 const emailInput = document.getElementById("email")
@@ -9,7 +11,7 @@ let apellidosValido
 let telefonoValido
 let emailValido
 let valido =false;
-
+//FUNCIONES
 function validarNombre(){
     const nombre = nombreInput.value
     const nombrePattern = /^[a-zA-Z][a-zA-Z0-9]*$/
@@ -79,13 +81,13 @@ function validaremail(){
         emailValido = false
     }
 }
-
+//EVENTOS
 nombreInput.addEventListener("keyup",validarNombre);
 apellidosInput.addEventListener("keyup",validarApellidos)
 telefonoInput.addEventListener("keyup", validarTelefono)
 emailInput.addEventListener("keyup", validaremail)
-
-//Capturamos los elementos.
+// ---------------------------> Presupuesto <---------------------------------
+//Capturamos los elementos y declaramos variables 
 const producto = document.getElementById("producto")
 let valorInicialP = producto.value;
 const condiciones = document.getElementById("condiciones")
@@ -105,10 +107,11 @@ function sumaExtras(){
     for (let i = 0; i < extras.length; i++) {
         if (extras[i].checked) {
             const totalExtras = parseFloat(extras[i].dataset.precio);
+            calculo += totalExtras;
         }
     }   
     
-    calculo += totalExtras;
+    
     cantidadProvisional.textContent = `Total: ${parseFloat(calculo)}`
 }
 function plazoDescuento(){
@@ -139,7 +142,7 @@ function plazoDescuento(){
     else{
         plazoInput.classList.add("invalido")
         plazoInput.classList.remove("valido")
-        document.getElementById("plazoError").textContent=`Deben ser numero enteros y debes seleccionar un producto primero`
+        document.getElementById("plazoError").textContent=`Debe seleccionar un producto e introducir un valor válido.`
     }
     
 }
@@ -226,7 +229,6 @@ enviarbtn.addEventListener("click",e=>{
     e.preventDefault()
     validarFormulario()
 })
-
 
 // Agrega el evento al botón de reinicio
 document.getElementById("resetear").addEventListener("click",e=>{
