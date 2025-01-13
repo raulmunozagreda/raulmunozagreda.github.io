@@ -1,0 +1,35 @@
+{
+    "noticias": [
+        {
+            "titulo": "Cyberpunk 2077 recibe una nueva actualizaci\u00f3n",
+            "contenido": "CD Projekt Red lanz\u00f3 una nueva actualizaci\u00f3n que mejora el rendimiento y corrige errores en Cyberpunk 2077.",
+            "fecha": "2025-01-05",
+            "autor": "Game News",
+            "categoria": "Actualizaciones"   },
+        {
+            "titulo": "Elden Ring: expansi\u00f3n anunciada",
+            "contenido": "FromSoftware confirm\u00f3 la expansi\u00f3n 'Shadow of the Erdtree' con una fecha de lanzamiento para este a\u00f1o.",
+            "fecha": "2025-01-04",
+            "autor": "Gaming World",
+            "categoria": "Anuncios"      },
+        {
+            "titulo": "Nintendo Switch 2 en desarrollo",
+            "contenido": "Rumores indican que la pr\u00f3xima generaci\u00f3n de la consola de Nintendo llegar\u00e1 en 2025.",
+            "fecha": "2025-01-03",
+            "autor": "Tech Radar",
+            "categoria": "Rumores"   },
+        {
+            "titulo": "Los mejores juegos del 2024",
+            "contenido": "Una lista completa con los t\u00edtulos m\u00e1s destacados del a\u00f1o pasado, seg\u00fan expertos de la industria.",
+            "fecha": "2025-01-02",
+            "autor": "IGN",
+            "categoria": "Rankings"  },
+        {
+            "titulo": "Nuevo tr\u00e1iler de Final Fantasy XVI",
+            "contenido": "Square Enix lanz\u00f3 un nuevo tr\u00e1iler de su pr\u00f3ximo RPG mostrando m\u00e1s de su impresionante mundo y combate.",
+            "fecha": "2025-01-01",
+            "autor": "RPG Times",
+            "categoria": "Tr\u00e1ilers"
+        }
+    ]
+}

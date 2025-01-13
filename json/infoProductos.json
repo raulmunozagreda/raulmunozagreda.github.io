@@ -1,0 +1,88 @@
+{
+    "products": [
+      {
+        "name": "PlayStation 5 Seminueva a elegir + Mando DualSense",
+        "category": "Consola",
+        "description": "Consola PlayStation 5 seminueva con opción a elegir configuración, incluye un mando DualSense.",
+        "features": [
+          "Compatibilidad con juegos de nueva generación",
+          "Incluye mando DualSense",
+          "Compatible con tecnología Ray-Tracing"
+        ]
+      },
+      {
+        "name": "Nintendo Switch (Neon Red/Neon Blue) Switch Sports + 12 Months NSO",
+        "category": "Consola",
+        "description": "Consola Nintendo Switch en colores Neon Red/Neon Blue, incluye Switch Sports y una suscripción de 12 meses a Nintendo Switch Online.",
+        "features": [
+          "Pantalla de 6.2 pulgadas",
+          "Incluye dos Joy-Con",
+          "Suscripción NSO por 12 meses"
+        ]
+      },
+      {
+        "name": "Mario Kart 8 Deluxe",
+        "category": "Videojuego",
+        "description": "El clásico juego de carreras de Nintendo, ahora mejorado y disponible para Nintendo Switch.",
+        "features": [
+          "Multijugador local y online",
+          "Incluye todos los DLC de la versión de Wii U",
+          "Nuevos personajes y modos de batalla"
+        ]
+      },
+      {
+        "name": "GAME M24GC7 - 24'' - VA - Full HD - 200Hz - Curvo - Monitor Gaming",
+        "category": "Monitor",
+        "description": "Monitor curvo de 24 pulgadas con resolución Full HD y una tasa de refresco de 200Hz, ideal para gaming.",
+        "features": [
+          "Pantalla curva VA",
+          "Resolución 1920x1080",
+          "Tasa de refresco de 200Hz",
+          "Diseño sin bordes"
+        ]
+      },
+      {
+        "name": "Red Dead Redemption II",
+        "category": "Videojuego",
+        "description": "Un épico juego de mundo abierto desarrollado por Rockstar Games, ambientado en el lejano oeste.",
+        "features": [
+          "Modo historia inmersivo",
+          "Multijugador en Red Dead Online",
+          "Gráficos realistas y narrativa profunda"
+        ]
+      },
+      {
+        "name": "GAME GT1 Negro-Azul - Silla Gaming",
+        "category": "Accesorio",
+        "description": "Silla ergonómica diseñada para gaming, en colores negro y azul, con soporte lumbar ajustable.",
+        "features": [
+          "Diseño ergonómico",
+          "Reposabrazos ajustables",
+          "Materiales de alta calidad"
+        ]
+      },
+      {
+        "name": "Marvel's Spider-Man 2",
+        "category": "Videojuego",
+        "description": "El nuevo capítulo en la saga de Spider-Man, exclusivo para consolas PlayStation, desarrollado por Insomniac Games.",
+        "features": [
+          "Historia original con Peter Parker y Miles Morales",
+          "Gráficos de nueva generación",
+          "Jugabilidad mejorada con nuevos poderes"
+        ]
+      },
+      {
+        "name": "Lenovo Legion K510 Mini Pro mecánico RGB Spanish Layout - Teclado Gaming",
+        "category": "Accesorio",
+        "description": "Teclado mecánico RGB con diseño compacto y disposición en español, ideal para gaming.",
+        "features": [
+          "Interruptores mecánicos táctiles",
+          "Iluminación RGB personalizable",
+          "Diseño compacto con teclas multimedia"
+        ]
+      }
+      
+      
+    ]
+  }
+  

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../images/AMZ-Logo.webp">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Kkazon</title>
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <h1>FakeZon</h1> 
+                <nav> 
+                    <ul>
+                        <li><a href="../index.html" >INICIO</a></li>
+                        <li><a href="../views/galeria.html">GALERIA</a></li>
+                        <li><a href="../views/contacto.html">CONTACTO</a></li>
+                        <li><a href="#" id="marcador">PRESUPUESTO</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </header>
+        <div class="mainPresupuesto">
+            <div class="contenedor">
+                <h2 class="titulo">Datos de contacto</h2>
+        
+                <form class="form" id="contacto">
+                    <div class="input-contenedor">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                        <span class="error" id="nombreError"></span>
+                    </div>
+                    <div class="input-contenedor">
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos">
+                        <span class="error" id="apellidosError"></span>
+                    </div>
+                    <div class="input-contenedor">
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                        <span class="error" id="telefonoError"></span>
+                    </div>
+                    <div class="input-contenedor">
+                        <label for="email">email:</label>
+                        <input type="email" id="email" name="email">
+                        <span class="error" id="emailError"></span>
+                    </div>
+                    
+                    
+                    
+                </form>
+                <form class="form" id="presupuesto">
+                    <h2 class="titulo" id="carrito">Carrito</h2>
+                    <div class="input-contenedor">
+                        <label for="producto">Producto:</label>
+                        <select id="producto" name="producto">
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="Playstation" data-precio="550">Playstation 5 - €550</option>
+                            <option value="Nintendo" data-precio="350">Nintendo switch - €350</option>
+                            <option value="Xbox" data-precio="400">Xbox series X - €400</option>
+                        </select>
+                        <span class="error" id="productoError"></span>
+                    </div>
+                    <div class="input-contenedor">
+                        <label for="plazo">Número de meses:</label>
+                        <input type="number" id="plazo" name="plazo">
+                        <span class="error" id="plazoError"></span>
+                        <br><br>
+                        <!-- Mostrar descuentos -->
+                        <p id="descuento10%">Descuento: 10% si lo pagas entre los 3 primeros meses. (Se aplica si pagas todo al contado.)</p>
+                        <p id="descuento5%">Descuento del 5% si lo pagas entre los 5 primeros meses.</p>
+                    </div>
+                    <div class="input-contenedor">
+                        <br>
+                        <h3>Extras (Opcionales):</h3>
+                            <label>
+                                <input type="checkbox" class="extras" data-precio="50"> segundo mando - €50
+                            </label><br>
+                            <label>
+                                <input type="checkbox" class="extras" data-precio="60"> spider-man 2 - €60
+                            </label><br>
+                            <label>
+                                <input type="checkbox" class="extras" data-precio="35"> fc 25 - €35
+                            </label><br>
+                                        </div>
+                                        <div id="cantidadProvisional"></div>
+                                        <hr><br><br>
+                    <div class="input-contenedor">
+                          <label>
+                            <input type="checkbox" id="condiciones">
+                            Acepto las condiciones de privacidad</a>.
+                        </label><br>
+                        <div class="btn-enviar">
+                        <button type="submit" id="enviar">Comprar</button>
+                        <button type="submit" id="resetear" >Resetear</button>
+                        </div>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+        <footer> 
+            <div class="containerFooter"> 
+                <a href="https://www.facebook.com/"><img style="width: 40px; height: 40px" src="../images/facebook.jpg" class="logosFooter" alt="logoFacebook"></a>
+                <a href="https://www.instagram.com/instagram/"><img style="width: 40px; height: 40px" src="../images/instagram.jpg" class="logosFooter" alt="logoInstagram"></a>
+                <a href="https://www.linkedin.com/"><img style="width: 40px; height: 40px" src="../images/linkedin.jpg" class="logosFooter" alt="logoLinkedin"></a>
+            </div>
+            <p>&copy; 2025 FakeZon (UK) Limited.
+                Domicilio social Fakezon (UK) Ltd, Artisan Hillbottom Road, Sands Industrial Estate, High Wycombe, Inglaterra, HP12 4HJ
+            </p>
+        </footer>
+        <script src="../js/presupuesto.js"></script>
+    </body>
+</html>
